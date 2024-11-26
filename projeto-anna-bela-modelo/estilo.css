@@ -1,0 +1,61 @@
+body{
+    background:#d2d2c1 url('imagens/fundo.png');
+    /*background:#d2d2c1 url('imagens/fundo.png') no-repeat;*/
+    font: 16px Arial,Helvetica, sans-serif;
+    /*Caso a imagem não seja localizada e aplicado a cor, e possível usar os 2
+    ou só uma formatação | cor em hexadecimal*/
+
+    #principal{
+       /* border: 1px solid red;*/
+        width: 900px; /*largura da div */
+        /*height: 500px; Altura da imagem */
+    }
+    #menu{
+
+        background: #c5c5b2;
+        /*border: 1px solid red;*/
+        padding: 18px ; /*Espaçamento interno*/
+
+
+    }
+
+    #conteudo{
+        background: #e8e8d9;
+        padding: 18px;
+
+    }
+
+
+
+    /*Formatação de Links, todos os links do site*/
+    a {
+        color: #4b566a;
+        text-decoration: none;
+        font-weight: bold;
+        /*border: 1px solid red;*/
+        padding: 30px;
+    }
+
+    .centralizar{
+        text-align:center;
+    }
+
+
+    /*Poderia criar a Classe ou Criar um Bloco de Formação RODAPE*/
+
+    h1{
+        color: #828271;
+        font-size: 1.2em; /*unidade em*/
+    }
+
+    .img-campanha{
+        border: 10px solid #c3c3ae;
+    }
+
+
+
+
+
+
+
+}
